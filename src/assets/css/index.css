@@ -1,0 +1,110 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.banner {
+  width: 100%;
+  height: 4rem;
+  background: url(../images/navigation/banner-z.jpg) no-repeat;
+  background-size: 7.5rem 4rem ;
+  text-align: center;
+  padding-top: 1.54rem;
+}
+.banner h2 {
+  font-size: 0.54rem;
+  color: #fff;
+  margin-bottom: 0.2rem;
+  letter-spacing: 6.4px;
+}
+.banner p {
+  font-size: 0.26rem;
+  color: #fff;
+}
+.items {
+  padding: 0.5rem 0.3rem 0 0.3rem;
+}
+.items ul li {
+  width: 33.333%;
+  height: 1.8rem;
+  padding-top: 0.3rem;
+  border-bottom: 1px solid #e5e5e5;
+  float: left;
+}
+.items ul li a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.items ul li a div {
+  border-right: 1px solid #e5e5e5;
+}
+.items ul li a div span {
+  width: 0.6rem;
+  height: 0.6rem;
+  display: block;
+  margin: 0 auto ;
+  background: url(../images/navigation/icon0111.png) no-repeat;
+  background-position: 0 0;
+  margin-bottom: 0.16rem;
+  background-size: 0.6rem ;
+}
+.items ul li a div .icon02 {
+  background-position: 0 -0.6rem;
+}
+.items ul li a div .icon03 {
+  background-position: 0 -1.2rem;
+}
+.items ul li a div .icon04 {
+  background-position: 0 -1.8rem;
+}
+.items ul li a div .icon05 {
+  background-position: 0 -2.4rem;
+}
+.items ul li a div .icon06 {
+  background-position: 0 -3rem;
+}
+.items ul li a div .icon07 {
+  background-position: 0 -3.6rem;
+}
+.items ul li a div .icon08 {
+  background-position: 0 -4.2rem;
+}
+.items ul li a div .icon09 {
+  background-position: 0 -4.8rem;
+}
+.items ul li a div .icon10 {
+  background-position: 0 -5.4rem;
+}
+.items ul li a h4 {
+  font-size: 0.26rem;
+  color: #666;
+  font-weight: 500;
+}
+.items ul .item01 {
+  width: 66.666%;
+  padding: 0.15rem 0 0.15rem 0.45rem;
+}
+.items ul .item01 img {
+  width: 1.5rem;
+  height: 1.5rem;
+  float: left;
+}
+.items ul .item01 .item01-right {
+  float: right;
+  margin-top: 0.1rem;
+  padding-right: 0.7rem;
+}
+.items ul .item01 .item01-right h4 {
+  font-size: 0.26rem;
+  margin-bottom: 0.3rem;
+  text-align: left;
+}
+.items ul .item01 .item01-right p {
+  font-size: 0.24rem;
+  color: #999;
+}
+.items ul .none {
+  border: 0 none;
+}

@@ -1,0 +1,181 @@
+/*------边框颜色----------*/
+/*-------主题背景颜色-------*/
+.input {
+  border: 1px solid #e5e5e5;
+  height: 0.8rem;
+  padding-left: 0.38rem;
+  outline: 0 none;
+  width: 100%;
+  color: #666;
+  font-size: 0.24rem;
+}
+.submit {
+  outline: 0 none;
+  width: 100%;
+  font-size: 0.24rem;
+  color: #fff;
+  background-color: #FF7200;
+  text-align: center;
+  float: none;
+  border: 1px solid #e5e5e5;
+  height: 0.8rem;
+}
+.textarea {
+  width: 100%;
+  height: 4rem;
+  padding: 0.35rem;
+  text-align: justify;
+  border: 1px solid #e5e5e5;
+  outline: 0 none;
+  resize: none;
+}
+.model {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.model span {
+  width: 0.17rem;
+  height: 0.1rem;
+  background: url(../images/arr-top.png) no-repeat;
+  position: absolute;
+  right: 0.36rem;
+  top: 0.35rem;
+  background-size: 0.17rem 0.1rem;
+}
+.select {
+  height: 0.8rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  padding-left: 0.38rem;
+}
+nav {
+  width: 100%;
+  padding: 0.23rem  0.3rem;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+nav img {
+  width: 1.52rem;
+  height: 0.5rem;
+}
+.nav-in {
+  width: 100%;
+  height: 0.8rem;
+  border-top: 1px solid #e5e5e5;
+  box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.1);
+}
+.nav-in li {
+  width: 33.333%;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.28rem;
+  border-right: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fbfbfb;
+  margin-top: -1px;
+  float: left;
+  display: inline;
+}
+.nav-in li a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: #666;
+}
+.nav-in li:nth-last-child(1) {
+  border-right: 0 none ;
+}
+.nav-in .active {
+  border-top: 2px solid #FF7200;
+  border-bottom: 0 none;
+  background-color: #fff;
+}
+.nav-in .active a {
+  color: #FF7200;
+}
+.info-bottom {
+  padding: 0 0.6rem;
+  color: #666;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  padding-bottom: 0.9rem;
+}
+.info-bottom h4 {
+  font-size: 0.3rem;
+  line-height: 0.6rem;
+  font-weight: 500;
+}
+.info-bottom span {
+  color: #FF7200;
+}
+.nav-in ul li {
+  width: 50%;
+}
+.sign {
+  padding: 0 0.3rem 0 0.3rem;
+}
+.sign .text {
+  width: 100%;
+  padding-top: 0.5rem;
+  height: auto;
+  border-bottom: 1px solid #e5e5e5;
+}
+.sign .text ul {
+  padding: 0 0.3rem;
+  color: #666;
+  font-size: 0.24rem;
+  line-height: 0.48rem;
+}
+.sign .text ul li em {
+  width: 1.4rem;
+  font-style: normal;
+  display: inline-block;
+}
+.sign .text ul li .green {
+  color: #5fcb25;
+}
+.sign .text ul li .red {
+  color: #ff0000;
+}
+.sign .text ul li .btn {
+  width: 2rem;
+  height: 0.6rem;
+  border: 0 none;
+  outline: 0 none;
+  color: #666;
+  font-size: 0.24rem;
+  color: #fff;
+  float: right;
+}
+.sign .text ul li .btn-red {
+  background-color: #FF7200;
+}
+.sign .text ul li .btn-gray {
+  background-color: #ededed;
+  color: #999;
+}
+.sign .text ul .last {
+  height: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.sign .text ul .last em,
+.sign .text ul .last span {
+  vertical-align: bottom;
+  line-height: 0;
+}
+.paging {
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.24rem;
+  text-align: center;
+}
+.paging .prev {
+  float: left;
+}
+.paging .next {
+  float: right;
+}
+.paging .color {
+  color: #FF7200;
+}
